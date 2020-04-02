@@ -1,0 +1,145 @@
+/* Extra small devices (portrait phones, less than 576px) */
+
+/* No media query since this is the default */
+
+body {
+  background-image: url(./../images/bg-intro-mobile.png);
+  background-color: rgb(255, 122, 122);
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 12% 6%;
+}
+
+.intro {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 10%;
+}
+
+.intro .title {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 36px;
+  padding-bottom: 1.4rem;
+}
+
+.intro .description {
+  line-height: 24px;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer {
+  background-color: hsl(248, 32%, 49%);
+  width: 100%;
+  max-width: 400px;
+  padding: 10px 28px;
+  border-radius: 10px;
+  text-align: center;
+  color: #ffffff;
+  box-shadow: 0px 8px 5px 0px rgba(50, 50, 50, 0.38);
+  margin-bottom: 8%;
+}
+
+.offer span {
+  font-weight: bold;
+}
+
+.form {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 7%;
+  width: 100%;
+  max-width: 400px;
+}
+
+.input {
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.5);
+  margin: 6px 0;
+  width: 100%;
+}
+
+.input::placeholder {
+  font-weight: bold;
+  font-size: 14px;
+  color: #555;
+}
+
+.button {
+  background-color: hsl(154, 59%, 51%);
+  width: 100%;
+  border: none;
+  padding: 20px 15px;
+  border-radius: 6px;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 15px;
+  text-align: center;
+  margin: 6px 0;
+}
+
+.fine-print {
+  width: 100%;
+  color: #bbb;
+  font-size: 12px;
+  padding: 0 10%;
+  text-align: center;
+}
+
+.fine-print span {
+  color: rgb(255, 122, 122);
+  font-weight: bold;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) {
+  .container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    padding: 0 10%;
+  }
+  .intro {
+    padding-right: 10%;
+    padding-bottom: 0;
+    text-align: start;
+  }
+  .signup-form {
+    padding-left: 10%;
+  }
+  .form {
+    padding: 10%;
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}
