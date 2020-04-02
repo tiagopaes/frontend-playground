@@ -66,10 +66,11 @@ body {
   padding: 7%;
   width: 100%;
   max-width: 400px;
+  box-shadow: 0px 8px 5px 0px rgba(50, 50, 50, 0.38);
 }
 
 .input {
-  border: 1px solid #bbb;
+  border: 1px solid #ddd;
   border-radius: 6px;
   padding: 15px;
   background: rgba(255, 255, 255, 0.5);
@@ -99,7 +100,7 @@ body {
 
 .fine-print {
   width: 100%;
-  color: #bbb;
+  color: #aaa;
   font-size: 12px;
   padding: 0 10%;
   text-align: center;
@@ -108,6 +109,7 @@ body {
 .fine-print span {
   color: rgb(255, 122, 122);
   font-weight: bold;
+  margin: 6px 0;
 }
 
 /* Small devices (landscape phones, 576px and up) */
